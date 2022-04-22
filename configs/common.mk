@@ -67,9 +67,6 @@ endif
 # Common overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/overlays/404/overlay
 
-# Recommend using the non debug dexpreopter
-USE_DEX2OAT_DEBUG ?= false
-
 # CAF Common Flags :
 PRODUCT_VENDOR_MOVE_ENABLED := true
 DISABLE_EAP_PROXY := true
